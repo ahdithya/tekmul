@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Element Multimedia</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h1>Element Multimedia</h1>
+      <p>2000016097 - Aditya Atallah</p>
+      <div class="card">
+        <div class="card-header"><h5>images</h5></div>
+        <div class="card-body">
+          <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/cake 6.jpg" width="1100" height="500" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/cake3.jpg" width="1100" height="500" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/cake5.jpg" width="1100" height="500" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+      <div class="card mt-5">
+        <div class="card-header"><h5>Audio</h5></div>
+        <div class="card-deck p-3">
+          <div class="card">
+            <img src="assets/images/drink2.jpg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <audio controls class="mx-auto d-block">
+                <source src="assets/audio/jazzyfrenchy.mp3" type="audio/mpeg" />
+              </audio>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="assets/images/drink1.jfif"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <audio controls class="mx-auto d-block">
+                <source src="assets/audio/happyrock.mp3" type="audio/mpeg" />
+              </audio>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-5">
+        <div class="card-header"><h5>Video</h5></div>
+        <div class="bard-body">
+          <video width="840px" controls class="mx-auto d-block m-3">
+            <source src="assets/video/video1.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
